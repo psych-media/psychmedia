@@ -5,6 +5,7 @@ import { PortfolioDiv, OverviewImg, OverviewText, ProjectsDiv } from '../../them
 import  { PortfolioTitle, PortfolioText, Title, Subtitle, AboutDesc } from '../../theme/Type';
 import devIcon from '../../images/Bantam-Media-Template.png';
 import { Button } from 'mdbreact';
+import { Link } from 'react-router-dom';
 
 import { Parallax, Background } from 'react-parallax';
 const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-75%,-50%)'};
@@ -71,9 +72,11 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
            </PortfolioText>
            </div>
            <div className="col-6 col-md-4">
+           <a href="https://www.bantambagels.com" target="_blank">
              <Button size="lg" gradient="blue">
              Visit the Site
              </Button>
+          </a>
           </div>
           </div>
           </ProjectsDiv>
