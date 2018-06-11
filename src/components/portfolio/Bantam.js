@@ -23,7 +23,7 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
 <PortfolioDiv>
 <ProjectsDiv>
 
-<Parallax strength={300} bgWidth="100%" bgHeight="300px">
+<Parallax strength={-100} bgWidth="100%" bgHeight="300px">
      <div style={{height: 300, width: 1280}}> </div>
      <Background className="custom-bg" style={insideStyles}>
        <img src={bantamHome} alt="fill murray" />
@@ -56,7 +56,8 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
                <img src={bantamPages} alt="Bantam Pages" />
              </Background>
            </Parallax>
-</ProjectsDiv><ProjectsDiv>
+</ProjectsDiv>
+<ProjectsDiv>
 <div class="row">
            <div className="col col-md-8">
            <PortfolioTitle>SITE DEVELOPMENT</PortfolioTitle>
@@ -66,7 +67,7 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
            store was developed on the Shopify platform with a highly customized template. We added
            additional functionality with private apps and worked directly with a fulfillment center to allow for
            seamless integration of their ordering process.
-                      </PortfolioText>
+           </PortfolioText>
            </div>
            <div className="col-6 col-md-4">
              <Button size="lg" gradient="blue">

@@ -46,6 +46,13 @@ text-align:center;
 max-width:800px;
 margin: 0 auto;
 padding:15px 0 30px;
+@media (max-width: 1024px) {
+  width:90%;
+margin: 0 auto;
+}
+@media (max-width: 620px) {
+font-size:1.25em;
+}
 `;
 
 export const ContactTitle = styled.h3`

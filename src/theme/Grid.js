@@ -17,6 +17,13 @@ export const ContactForm = styled.div`
 export const AboutDiv = styled.div`
     width:33%;
     padding: 1.5em 0 0;
+    @media (max-width: 1024px) {
+        width:50%;
+        padding: 1.5em;
+    }
+    @media (max-width: 620px) {
+        width:100%;
+    }
     `;
 
 export const ServicesDiv = styled.div`
@@ -53,6 +60,12 @@ export const HomeContainer = styled.div`
 export const PortfolioItem = styled.div`
     width:33%;
     padding: 1.5em 0 0;
+      @media (max-width: 1024px) {
+          width:50%;
+      }
+      @media (max-width: 620px) {
+          width:100%;
+      }
 `;
 
 export const PortfolioDiv = styled.div`
