@@ -12,40 +12,6 @@ import RutherfordSq from '../images/RutherfordSq.jpg';
 import LitfestSq from '../images/LitfestSq.jpg';
 import { Route,  Link } from 'react-router-dom';
 
-const Topic = ({ match }) => (
-  <div>
-    <h3>{match.params.portfolioId}</h3>
-  </div>
-)
-
-const Projects = ({ match }) => (
-  <div>
-    <h2>Topics</h2>
-    <ul>
-      <li>
-        <Link to={`${match.url}/bantam`}>
-          Rendering with React
-        </Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/components`}>
-          Components
-        </Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/props-v-state`}>
-          Props v. State
-        </Link>
-      </li>
-    </ul>
-
-    <Route path={`${match.path}/:portfolioId`} component={Topic}/>
-    <Route exact path={match.path} render={() => (
-      <h3>Please select a topic.</h3>
-    )}/>
-  </div>
-)
-
 class Portfolio extends Component {
 	render() {
 		return (
@@ -62,12 +28,12 @@ class Portfolio extends Component {
 
 <PortfolioItem>
 <div class="container">
- <a href="/portfolio/bantam" class="portfolioLink">
+ <Link to="/portfolio/bantam" class="portfolioLink">
   <img src={BantamSq} alt='Bantam Bagels' class="portfolioImg" />
   <div class="overlay">
     <div class="text">Bantam Bagels</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
