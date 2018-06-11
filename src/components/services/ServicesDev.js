@@ -42,7 +42,7 @@ class ServicesDev extends Component {
           </Link>
 
           <Button size="lg" gradient="purple">
-          More Info
+          Request a Quote
           </Button>
         </div>
         </div>

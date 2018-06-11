@@ -20,7 +20,7 @@ class ServicesDesign extends Component {
           More Info
           </Button>
           <Button size="lg" gradient="purple">
-          More Info
+          Request a Quote
           </Button>
         </div>
         <div className="col col-md-8">

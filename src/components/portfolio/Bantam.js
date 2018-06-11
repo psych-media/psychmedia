@@ -7,7 +7,8 @@ import devIcon from '../../images/Bantam-Media-Template.png';
 import { Button } from 'mdbreact';
 
 import { Parallax, Background } from 'react-parallax';
-const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(50%,50%)'};
+const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-75%,-50%)'};
+const insideStyles2 = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(50%,50%)'};
 
 class Bantam extends Component {
 
@@ -23,8 +24,8 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
 <PortfolioDiv>
 <ProjectsDiv>
 
-<Parallax strength={-100} bgWidth="100%" bgHeight="300px">
-     <div style={{height: 300, width: 1280}}> </div>
+<Parallax strength={-500} bgWidth="100%" bgHeight="500px">
+     <div style={{height: 500, width: 1280}}> </div>
      <Background className="custom-bg" style={insideStyles}>
        <img src={bantamHome} alt="fill murray" />
      </Background>
@@ -52,7 +53,7 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
 
         <Parallax strength={300} bgWidth="100%" bgHeight="300px">
              <div style={{height: 500, width: 1280}}> </div>
-             <Background className="custom-bg" style={insideStyles}>
+             <Background className="custom-bg" style={insideStyles2}>
                <img src={bantamPages} alt="Bantam Pages" />
              </Background>
            </Parallax>

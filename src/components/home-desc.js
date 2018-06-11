@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ProjectDiv } from '../theme/Grid';
 import { Button } from 'mdbreact';
 import  { ProjectTitle, ProjectDesc } from '../theme/Type';
-
+import { Link } from 'react-router-dom';
 class Homedesc extends Component {
 	render() {
 		return (
@@ -15,13 +15,17 @@ researching your market, assessing your competition, while
 analyzing your website trac and aligning your outreach
 campaigns with a consistent and targeted brand image.</ProjectDesc>
 
+<Link to="/portfolio">
 <Button size="lg" gradient="blue">
-More Info
+See Our Work
 </Button>
+</Link>
 
+<Link to="/about">
 <Button size="lg" gradient="purple">
-More Info
+More About Us
 </Button>
+</Link>
       </ProjectDiv>
 
     );
