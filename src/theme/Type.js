@@ -93,7 +93,7 @@ font-family: "Museo Slab";
 `;
 
 export const ServicesSubtitle = styled.h5`
-font-size: 1em;
+font-size: 1.5em;
 text-align:left;
 font-family: "Museo Slab";
 
@@ -101,7 +101,7 @@ font-family: "Museo Slab";
 
 export const ServicesText = styled.p`
 text-align:left;
-font-size: 1em;
+font-size: 1.2em;
 `;
 
 
@@ -111,10 +111,9 @@ export const PortfolioTitle = styled.h5`
 font-size: 1.5em;
 text-align:left;
 font-family: "Museo Slab";
-
 `;
 
 export const PortfolioText = styled.p`
 text-align:left;
-font-size: 1em;
+font-size: 1.2em;
 `;
