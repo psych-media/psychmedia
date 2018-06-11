@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+  background: #F2F2F4;
+  font-family: "Museo Sans Rounded"
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.AboutIcons {
+  height: 160px;
+}
+/*
+.App-header {
+  background-color: #F2F2F4;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}*/
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg,#45cafc,#303f9f)!important;
+    background: -o-linear-gradient(50deg,#45cafc,#303f9f)!important;
+    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+
+.purple-gradient {
+    background: -webkit-linear-gradient(50deg,#ae193e,#f9a52c)!important;
+    background: -o-linear-gradient(50deg,#ae193e,#f9a52c)!important;
+    background: radial-gradient(farthest-side at 80% 50%,#f9a52c,#ae193e)!important;
+}
+
+.btn.blue-gradient {
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    color: #fff;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.unique-color-gray {
+  background: #F2F2F4;
+}
+
+.servicesImg {
+  width:100%;
+}
+
+.servicesSq {
+  flex: 1 0 calc(25% - 10px);
+  margin: 5px;
+  background: #9a2e7a;
+  color:#fff;
+  font-size:1.5em;
+  font-weight: 400;
+}
+a {
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.container:hover .overlay {
+  opacity: .9;
+}
+
+
+
+.portfolioImg {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: calc(100% - 2em);
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #ae193e;
+  margin: 0 1em;
+
+}
+
+.servicesSq.light-blue {
+  background: #3fb5dc !important;
+}
+
+.servicesSq.blue {
+  background: #4985b3 !important;
+}
+
+.servicesSq.purple {
+  background: #482f6b !important;
+}
+
+.servicesSq:before{
+  content: '';
+  display: block;
+  padding-bottom: 50%;
+
+}
+.servicesSq:after{
+  content: '';
+  display: block;
+  padding-bottom: 50%;
+
+}
+
+footer.page-footer {
+background: #454545;
+}

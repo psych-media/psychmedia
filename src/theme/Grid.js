@@ -1,0 +1,78 @@
+import styled from 'styled-components';
+
+
+
+export const ProjectDiv = styled.div`
+    width:100%;
+`;
+
+export const ContactDiv = styled.div`
+    width:100%;
+`;
+
+export const ContactForm = styled.div`
+    width:100%;
+`;
+
+export const AboutDiv = styled.div`
+    width:33%;
+    padding: 1.5em 0 0;
+    `;
+
+export const ServicesDiv = styled.div`
+    width:calc(100% - 3em);
+    padding: 1.5em;
+`;
+
+export const FullWrapper = styled.div`
+    width:100%;
+`;
+
+export const ProcessDiv = styled.div`
+    margin: 0 auto;
+    width:100%;
+    display:flex;
+    max-width:1280px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+`;
+
+export const PageContent = styled.div`
+    margin: 0 auto;
+    width:100%;
+    padding-top:130px;
+    max-width:1280px;
+`;
+
+export const HomeContainer = styled.div`
+    margin: 0 auto;
+    width:100%;
+    max-width:1280px;
+`;
+
+export const PortfolioItem = styled.div`
+    width:33%;
+    padding: 1.5em 0 0;
+`;
+
+export const PortfolioDiv = styled.div`
+margin: 0 auto;
+width:100%;
+max-width:1280px;
+display:flex;
+flex-wrap:wrap;
+`;
+
+export const ProjectsDiv = styled.div`
+margin: 15px 0;
+`;
+
+export const OverviewImg = styled.div`
+    width:100%;
+    padding: 1.5em 0 0;
+`;
+
+export const OverviewText = styled.div`
+    width:100%;
+    padding: 1.5em 0 0;
+`;
