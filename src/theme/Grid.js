@@ -27,8 +27,8 @@ export const AboutDiv = styled.div`
     `;
 
 export const ServicesDiv = styled.div`
-    width:calc(100% - 3em);
-    padding: 1.5em;
+    width:100%;
+    padding: 0, 1.5em, 1.5em, 1.5em;
 `;
 
 export const FullWrapper = styled.div`
