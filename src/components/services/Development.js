@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
 //import devIcon from '../../images/Development.png';
-import devIcon from '../../images/Bantam-Media-Template.png';
 import { ServicesDiv } from '../../theme/Grid';
-import { Button } from 'mdbreact';
-import  { ServicesTitle, ServicesSubtitle, ServicesText, Title, AboutDesc, Subtitle } from '../../theme/Type';
+import  { Title, AboutDesc, Subtitle } from '../../theme/Type';
 
-class ServicesDev extends Component {
+class Development extends Component {
 	render() {
 		return (
       <ServicesDiv>
@@ -25,4 +23,4 @@ class ServicesDev extends Component {
 	}
 }
 
-export default ServicesDev;
+export default Development;

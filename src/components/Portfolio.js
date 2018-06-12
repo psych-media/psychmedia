@@ -10,7 +10,7 @@ import LeadershipSq from '../images/LeadershipSq.jpg';
 import KumikiSq from '../images/KumikiSq.jpg';
 import RutherfordSq from '../images/RutherfordSq.jpg';
 import LitfestSq from '../images/LitfestSq.jpg';
-import { Route,  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Portfolio extends Component {
 	render() {
@@ -27,93 +27,93 @@ class Portfolio extends Component {
 <PortfolioDiv>
 
 <PortfolioItem>
-<div class="container">
- <Link to="/portfolio/bantam" class="portfolioLink">
-  <img src={BantamSq} alt='Bantam Bagels' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Bantam Bagels</div>
+<div className="container">
+ <Link to="/portfolio/bantam" className="portfolioLink">
+  <img src={BantamSq} alt='Bantam Bagels' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Bantam Bagels</div>
   </div>
  </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/megpies" class="portfolioLink">
-  <img src={MegpiesSq} alt='Megpies' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Megpies</div>
+<div className="container">
+ <Link to="/portfolio/megpies" className="portfolioLink">
+  <img src={MegpiesSq} alt='Megpies' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Megpies</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/concentric" class="portfolioLink">
-  <img src={ConcentricSq} alt='Concentric' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Concentric</div>
+<div className="container">
+ <Link to="/portfolio/concentric" className="portfolioLink">
+  <img src={ConcentricSq} alt='Concentric' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Concentric</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/everlast" class="portfolioLink">
-  <img src={EverlastSq} alt='Everlast Climbing' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Everlast Climbing</div>
+<div className="container">
+ <Link to="/portfolio/everlast" className="portfolioLink">
+  <img src={EverlastSq} alt='Everlast Climbing' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Everlast Climbing</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/hanys" class="portfolioLink">
-  <img src={HanySq} alt='Hanys Fire Tonic' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Hanys Fire Tonic</div>
+<div className="container">
+ <Link to="/portfolio/hanys" className="portfolioLink">
+  <img src={HanySq} alt='Hanys Fire Tonic' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Hanys Fire Tonic</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/leadership" class="portfolioLink">
-  <img src={LeadershipSq} alt='Leadership Roundtable' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Leadership Roundtable</div>
+<div className="container">
+ <Link to="/portfolio/leadership" className="portfolioLink">
+  <img src={LeadershipSq} alt='Leadership Roundtable' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Leadership Roundtable</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/kumiki" class="portfolioLink">
-  <img src={KumikiSq} alt='Kumiki Climbing' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Kumiki Climbing</div>
+<div className="container">
+ <Link to="/portfolio/kumiki" className="portfolioLink">
+  <img src={KumikiSq} alt='Kumiki Climbing' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Kumiki Climbing</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/rutherford" class="portfolioLink">
-  <img src={RutherfordSq} alt='Rutherford and Meyer' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Rutherford & Meyer</div>
+<div className="container">
+ <Link to="/portfolio/rutherford" className="portfolioLink">
+  <img src={RutherfordSq} alt='Rutherford and Meyer' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Rutherford & Meyer</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 <PortfolioItem>
-<div class="container">
- <a href="/portfolio/litfest" class="portfolioLink">
-  <img src={LitfestSq} alt='Chicago Tribunes Lit Fest' class="portfolioImg" />
-  <div class="overlay">
-    <div class="text">Lit Fest</div>
+<div className="container">
+ <Link to="/portfolio/litfest" className="portfolioLink">
+  <img src={LitfestSq} alt='Chicago Tribunes Lit Fest' className="portfolioImg" />
+  <div className="overlay">
+    <div className="text">Lit Fest</div>
   </div>
- </a>
+ </Link>
  </div>
 </PortfolioItem>
 </PortfolioDiv>

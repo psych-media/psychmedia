@@ -6470,6 +6470,10 @@ react-scripts@1.1.4:
   optionalDependencies:
     fsevents "^1.1.3"
 
+react-simple-video-player@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-simple-video-player/-/react-simple-video-player-1.0.0.tgz#96a2f2777da3009c3a73904fdc16f35f4ddd2e0e"
+
 react-toastify@^3.2.2:
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-3.4.3.tgz#c0454834c403682729e3f616112427cfb1c723cd"

@@ -5,7 +5,7 @@ import devIcon from '../../images/Bantam-Media-Template.png';
 import { ServicesDiv } from '../../theme/Grid';
 import { Button } from 'mdbreact';
 import  { ServicesTitle, ServicesSubtitle, ServicesText } from '../../theme/Type';
-import { Route,  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class ServicesDev extends Component {
 	render() {
@@ -13,7 +13,7 @@ class ServicesDev extends Component {
       <ServicesDiv>
 
         <ServicesTitle>DEVELOPMENT</ServicesTitle>
-        <div class="row">
+        <div className="row">
         <div className="col col-md-8">
         <ServicesText>
         Psych Media is a full service agency that helps businesses best represent their brands across all digital platforms. We assist companies
@@ -34,9 +34,9 @@ class ServicesDev extends Component {
         </ServicesText>
         </div>
         <div className="col-6 col-md-4">
-          <img src={devIcon} class="servicesImg" alt="Psych Media"/>
+          <img src={devIcon} className="servicesImg" alt="Psych Media"/>
           <Link to="/services/development">
-          <Button component={Link} size="lg" gradient="blue" to="/services/development">
+          <Button size="lg" gradient="blue" to="/services/development">
           More Info
           </Button>
           </Link>

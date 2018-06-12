@@ -10,7 +10,7 @@ import { Parallax, Background } from 'react-parallax';
 const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-75%,-50%)'};
 const insideStyles2 = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(50%,50%)'};
 
-class Bantam extends Component {
+class Megpies extends Component {
 
 	render() {
 		return (
@@ -85,4 +85,4 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
 	}
 }
 
-export default Bantam;
+export default Megpies;

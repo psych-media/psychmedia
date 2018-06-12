@@ -4,14 +4,25 @@ import Home from './components/Home';
 import About from './components/about';
 import Portfolio from './components/Portfolio';
 import Bantam from './components/portfolio/Bantam';
+import Megpies from './components/portfolio/Megpies';
+import Concentric from './components/portfolio/Concentric';
+import Everlast from './components/portfolio/Everlast';
+import Kumiki from './components/portfolio/Kumiki';
+import Leadership from './components/portfolio/Leadership';
+import Litfest from './components/portfolio/Litfest';
+import Rutherford from './components/portfolio/Rutherford';
+import Hanys from './components/portfolio/Hanys';
 import Services from './components/Services';
 import Development from './components/services/Development';
+import Maintenance from './components/services/Maintenance';
+import AppDesign from './components/services/AppDesign';
+import Marketing from './components/services/Marketing';
 import FooterPage from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/mdb.css';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown } from 'mdbreact';
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink } from 'mdbreact';
 import { PageContent } from './theme/Grid';
-import { Route,  Link } from 'react-router-dom';
+import { Router, Route } from 'react-router-dom';
 
 
 import './App.css';
@@ -78,12 +89,25 @@ class App extends Component {
 </Navbar>
 
 <PageContent>
+
                   <Route exact={true} path="/" component={Home}/>
                   <Route path="/about" component={About}/>
                   <Route exact={true} path="/portfolio" component={Portfolio}/>
                   <Route path="/portfolio/bantam" component={Bantam}/>
+                  <Route path="/portfolio/megpies" component={Megpies}/>
+                  <Route path="/portfolio/concentric" component={Concentric}/>
+                  <Route path="/portfolio/everlast" component={Everlast}/>
+                  <Route path="/portfolio/kumiki" component={Kumiki}/>
+                  <Route path="/portfolio/leadership" component={Leadership}/>
+                  <Route path="/portfolio/litfest" component={Litfest}/>
+                  <Route path="/portfolio/rutherford" component={Rutherford}/>
+                  <Route path="/portfolio/hanys" component={Hanys}/>
                   <Route exact={true} path="/services" component={Services}/>
                   <Route path="/services/development" component={Development}/>
+                  <Route path="/services/maintenance" component={Maintenance}/>
+                  <Route path="/services/appdesign" component={AppDesign}/>
+                  <Route path="/services/marketing" component={Marketing}/>
+                  
 </PageContent>
 <FooterPage />
 

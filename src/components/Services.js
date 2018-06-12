@@ -3,6 +3,7 @@ import { ServicesDiv } from '../theme/Grid';
 import  { Title, Subtitle, AboutDesc } from '../theme/Type';
 import ServicesDev from './services/ServicesDev';
 import ServicesDesign from './services/ServicesDesign';
+import { Link } from 'react-router-dom';
 
 class Services extends Component {
 	render() {
@@ -19,10 +20,10 @@ and targeted brand image.</AboutDesc>
 <ServicesDev />
 <ServicesDesign />
 <div className="row">
-    <div className="col servicesSq light-blue">Monthly Maintenance</div>
+    <Link to="services/maintenance"><div className="col servicesSq light-blue">Monthly Maintenance</div></Link>
     <div className="col servicesSq blue">Domain & Hosting</div>
-    <div className="col servicesSq purple">App Design</div>
-    <div className="col servicesSq magenta">Marketing</div>
+    <Link to="services/appdesign"><div className="col servicesSq purple">App Design</div></Link>
+    <Link to="services/marketing"><div className="col servicesSq magenta">Marketing</div></Link>
 </div>
 			</ServicesDiv>
 		);

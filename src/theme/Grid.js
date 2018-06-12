@@ -16,7 +16,7 @@ export const ContactForm = styled.div`
 
 export const AboutDiv = styled.div`
     width:33%;
-    padding: 1.5em 0 0;
+    padding: 1.5em 1.5em 0;
     @media (max-width: 1024px) {
         width:50%;
         padding: 1.5em;

@@ -10,11 +10,11 @@ class ServicesDesign extends Component {
 		return (
       <ServicesDiv>
 
-        <div class="row">
+        <div className="row">
 
         <div className="col-6 col-md-4">
 
-          <img src={devIcon} class="servicesImg" alt="Psych Media"/>
+          <img src={devIcon} className="servicesImg" alt="Psych Media"/>
 
           <Button size="lg" gradient="blue">
           More Info
