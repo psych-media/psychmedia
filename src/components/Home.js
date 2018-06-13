@@ -17,12 +17,12 @@ class Home extends Component {
                 height='100%'
               />
               <VideoPlayer
-   url="./images/Comp_1.mp4"
-   poster="./Psych-Media_Logo.jpg"
-   width={400}
-   height={300}
-   autoplay
- />
+               url="./images/Comp_1.mp4"
+               poster="./Psych-Media_Logo.jpg"
+               width={400}
+               height={300}
+               autoplay
+             />
 <video ref="vidRef" src="./images/Comp_1.mp4" type="video/mp4"></video>
             </div>
         <div className="row">

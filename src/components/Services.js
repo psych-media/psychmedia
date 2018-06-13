@@ -20,10 +20,10 @@ and targeted brand image.</AboutDesc>
 <ServicesDev />
 <ServicesDesign />
 <div className="row">
-    <Link to="services/maintenance"><div className="col servicesSq light-blue">Monthly Maintenance</div></Link>
-    <div className="col servicesSq blue">Domain & Hosting</div>
-    <Link to="services/appdesign"><div className="col servicesSq purple">App Design</div></Link>
-    <Link to="services/marketing"><div className="col servicesSq magenta">Marketing</div></Link>
+    <Link to="services/maintenance" className="col"><div className="col servicesSq light-blue">Monthly Maintenance</div></Link>
+    <Link to="services/maintenance" className="col"><div className="col servicesSq blue">Domain & Hosting</div></Link>
+    <Link to="services/appdesign" className="col"><div className="col servicesSq purple">App Design</div></Link>
+    <Link to="services/marketing" className="col"><div className="col servicesSq magenta">Marketing</div></Link>
 </div>
 			</ServicesDiv>
 		);
