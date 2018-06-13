@@ -22,12 +22,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/mdb.css';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink } from 'mdbreact';
 import { PageContent } from './theme/Grid';
-import { Router, Route } from 'react-router-dom';
-
+import { Route } from 'react-router-dom';
 
 import './App.css';
 
-
+class UpdateBlocker extends React.PureComponent {
+  render() {
+    return this.props.children
+  }
+}
 
 
 
@@ -69,6 +72,7 @@ class App extends Component {
         { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
         <Collapse isOpen = { this.state.collapse } navbar>
         <NavbarNav right>
+        <UpdateBlocker>
 
         <NavItem active>
                              <NavLink to="/">Home</NavLink>
@@ -82,7 +86,9 @@ class App extends Component {
                          <NavItem>
                              <NavLink to="/services">Services</NavLink>
                          </NavItem>
+                         </UpdateBlocker>
                          </NavbarNav>
+
 
     </Collapse>
 
@@ -107,7 +113,7 @@ class App extends Component {
                   <Route path="/services/maintenance" component={Maintenance}/>
                   <Route path="/services/appdesign" component={AppDesign}/>
                   <Route path="/services/marketing" component={Marketing}/>
-                  
+
 </PageContent>
 <FooterPage />
 
