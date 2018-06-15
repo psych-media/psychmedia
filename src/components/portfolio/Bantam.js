@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bantamHome from '../../images/bantam-home.png';
+import bantamHome from '../../images/bantam-home.jpg';
 import bantamPages from '../../images/Isometric-Web-Mockup.jpg';
 import { PortfolioDiv, OverviewImg, OverviewText, ProjectsDiv } from '../../theme/Grid';
 import  { PortfolioTitle, PortfolioText, Title, AboutDesc } from '../../theme/Type';
@@ -24,14 +24,9 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
 <PortfolioDiv>
 <ProjectsDiv>
 
-<Parallax strength={-500} bgWidth="100%" bgHeight="500px">
-     <div style={{height: 500, width: 1280}}> </div>
-     <Background className="custom-bg" style={insideStyles}>
-       <img src={bantamHome} alt="fill murray" />
-     </Background>
-   </Parallax>
+<img src={bantamHome} className="bannerImg" alt="Bantam Home"/>
    </ProjectsDiv><ProjectsDiv>
-   <div className="row">
+   <div className="row alignCenter">
    <div className="col">
 
         <OverviewImg>
@@ -59,7 +54,7 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
            </Parallax>
 </ProjectsDiv>
 <ProjectsDiv>
-<div className="row">
+<div className="row alignCenter">
            <div className="col col-md-8">
            <PortfolioTitle>SITE DEVELOPMENT</PortfolioTitle>
 

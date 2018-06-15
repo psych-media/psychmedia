@@ -13,7 +13,7 @@ class ServicesDev extends Component {
       <ServicesDiv>
 
         <ServicesTitle>DEVELOPMENT</ServicesTitle>
-        <div className="row">
+        <div className="row alignCenter">
         <div className="col col-md-8">
         <ServicesText>
         Psych Media is a full service agency that helps businesses best represent their brands across all digital platforms. We assist companies

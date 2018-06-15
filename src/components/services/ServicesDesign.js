@@ -10,7 +10,7 @@ class ServicesDesign extends Component {
 		return (
       <ServicesDiv>
 
-        <div className="row">
+        <div className="row alignCenter">
 
         <div className="col-6 col-md-4">
 
