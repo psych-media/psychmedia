@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 import { HomeContainer } from '../theme/Grid';
 import VideoPlayer from 'react-simple-video-player';
 import psychBanner from '../images/psych-banner.gif';
-import psychVideo from '../images/Comp_1.mp4';
+import psychVideo from '../images/psych-banner.mp4';
 
 class Home extends Component {
 	render() {
