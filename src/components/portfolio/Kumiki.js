@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import bantamHome from '../../images/bantam-home.png';
-import bantamPages from '../../images/Isometric-Web-Mockup.jpg';
 import { PortfolioDiv, OverviewImg, OverviewText, ProjectsDiv } from '../../theme/Grid';
 import  { PortfolioTitle, PortfolioText, Title, AboutDesc } from '../../theme/Type';
 import devIcon from '../../images/Bantam-Media-Template.png';
 import { Button } from 'mdbreact';
+import kumikiPages from '../../images/Webpages-Kumiki.png';
+
 
 import { Parallax, Background } from 'react-parallax';
 const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-75%,-50%)'};
@@ -54,7 +55,7 @@ launched the redesigned online storefront for Bantam Bagels. </AboutDesc>
         <Parallax strength={300} bgWidth="100%" bgHeight="300px">
              <div style={{height: 500, width: 1280}}> </div>
              <Background className="custom-bg" style={insideStyles2}>
-               <img src={bantamPages} alt="Bantam Pages" />
+               <img src={kumikiPages} alt="Bantam Pages" />
              </Background>
            </Parallax>
 </ProjectsDiv>
